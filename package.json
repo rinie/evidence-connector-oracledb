@@ -1,0 +1,30 @@
+{
+  "name": "evidence-connector-oracledb",
+  "version": "0.0.1",
+  "description": "OracleDB SQL driver for Evidence projects",
+  "main": "index.cjs",
+  "author": "Rinie Kervel",
+  "license": "MIT",
+  "dependencies": {
+    "oracledb": "^6.5.0",
+    "@evidence-dev/db-commons": "1.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "type": "module",
+  "evidence": {
+    "datasources": [
+      "oracledb"
+    ],
+    "icon": "OracleDB"
+  },
+  "keywords": [
+    "evidence",
+    "evidence-datasource",
+    "oracledb"
+  ],
+  "scripts": {
+    "test": "uvu test test.js"
+  }
+}
